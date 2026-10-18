@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrateTimberX
+  m_Shader: {fileID: 4800000, guid: e8f20c8e891a9714b9b5387835727b38, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _SURFACE_WOOD
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Contrast: 0.9
+    - _DetailStrength: 0.35
+    - _HeightStrength: 0.003
+    - _MortarWidth: 0.025
+    - _PatternScale: 1
+    - _Seed: 3.17
+    - _Smoothness: 0.12
+    - _Surface: 1
+    m_Colors:
+    - _BaseColor: {r: 0.25, g: 0.16, b: 0.08, a: 1}
+    - _BrickSize: {r: 0.4, g: 0.2, b: 0, a: 0}
+    - _DetailColor: {r: 0.18, g: 0.065, b: 0.02, a: 1}
+    - _SecondaryColor: {r: 0.47, g: 0.33, b: 0.18, a: 1}
+    - _WoodDirection: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

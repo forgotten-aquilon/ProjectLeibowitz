@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EpoxyFloor
+  m_Shader: {fileID: 4800000, guid: 0efcdb0d4dea16b469fbb3e76b32821b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _SURFACE_EPOXY
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Contrast: 1.2
+    - _DetailStrength: 0.6
+    - _HeightStrength: 0.008
+    - _MortarWidth: 0.016
+    - _PatternScale: 1
+    - _RibSpacing: 0.14
+    - _RibWidth: 0.055
+    - _Seed: 15.17
+    - _Smoothness: 0.55
+    - _StripeAngle: 45
+    - _StripeWidth: 0.22
+    - _Surface: 1
+    - _WearStrength: 0.5
+    m_Colors:
+    - _BaseColor: {r: 0.25, g: 0.39, b: 0.36, a: 1}
+    - _BrickSize: {r: 0.8, g: 1.6, b: 0, a: 0}
+    - _DetailColor: {r: 0.15, g: 0.21, b: 0.2, a: 1}
+    - _SecondaryColor: {r: 0.43, g: 0.52, b: 0.46, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

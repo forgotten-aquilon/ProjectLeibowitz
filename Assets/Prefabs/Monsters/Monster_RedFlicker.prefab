@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7456531502228571890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2765873795424203234, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_Name
+      value: Monster_RedFlicker
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6630315336504737533, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2765873795424203234, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 565219963666786422}
+  m_SourcePrefab: {fileID: 100100000, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+--- !u!1 &4690693028917688080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2765873795424203234, guid: ed2f96b980551024591f3092a46f4401, type: 3}
+  m_PrefabInstance: {fileID: 7456531502228571890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &565219963666786422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4690693028917688080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f109281dbe6866049b6952de2208a727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedFlickerAura
+  color: {r: 1, g: 0.025, b: 0.015, a: 1}
+  localOffset: {x: 0, y: 2.6, z: 0}
+  radius: 3
+  intensity: 2.5
+  flickerAmount: 0.3
+  flickerSpeed: 4
